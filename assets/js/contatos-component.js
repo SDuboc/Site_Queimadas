@@ -24,7 +24,7 @@ const listComponent3 = (data3) => {
     return data3.map((item) => {
         return (
             `
-<li><a target="_parent" href="${ item.id }"><i class="${ item.class }">&nbsp;</i>${ item.name }</a></li>
+<li><a target="_blank" href="${ item.id }"><i class="${ item.class }">&nbsp;</i>${ item.name }</a></li>
 `
         )
     }).join('')
