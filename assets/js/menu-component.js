@@ -7,6 +7,10 @@ const data = [{
         id: 'areas-protegidas.html'
     },
     {
+        name: 'Faça sua contribuição',
+        id: 'doacao.html'
+    },
+    {
         name: 'Generic',
         id: 'generic.html'
     },
