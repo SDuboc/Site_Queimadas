@@ -1,14 +1,14 @@
 const data2 = [{
-        name: 'Link 1.',
-        id: '#'
+        name: 'TO - (63) 3218-2600'
     },
     {
-        name: 'Link 2.',
-        id: '#'
+        name: 'MT - (65) 3613-7200'
     },
     {
-        name: 'Link 3.',
-        id: '#'
+        name: 'MS - (67) 3318-4100'
+    },
+    {
+        name: 'RJ - (21) 2334-5906'
     }
 ]
 
@@ -17,7 +17,7 @@ const listComponent2 = (data2) => {
         return (
 
             `
-<li><a target="_parent" href=${ item.id }><i class=${ item.class }>&nbsp;</i>${ item.name }</a></li>
+<li class="no-link">${ item.name }</li>
 `
         )
     }).join('')

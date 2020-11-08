@@ -3390,7 +3390,7 @@ body.is-preload #banner:before {
 #footer button,
 #footer .button {
     background-color: transparent;
-    box-shadow: inset 0 0 0 1px #ffffff;
+    /* box-shadow: inset 0 0 0 1px #ffffff; */
     color: #ffffff !important;
 }
 
@@ -3399,8 +3399,26 @@ body.is-preload #banner:before {
 #footer input[type="button"]:hover,
 #footer button:hover,
 #footer .button:hover {
-    box-shadow: inset 0 0 0 1px #ce1b28;
+    /* box-shadow: inset 0 0 0 1px #ce1b28; */
     color: #ce1b28 !important;
+}
+
+#footer .no-link {
+    color: #ffffff !important;
+}
+
+#footer .no-link:hover {
+    color: #ce1b28 !important;
+}
+
+#footer .link-vermelho {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+#footer .link-vermelho:hover {
+    color: #ce1b28 !important;
+    text-decoration: none;
 }
 
 #footer input[type="submit"]:hover:active,
