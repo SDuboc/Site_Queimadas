@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -9,6 +9,7 @@
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 </head>
 
 <body class="is-preload">
@@ -30,7 +31,7 @@
     <section id="banner">
         <div class="inner">
             <h1>Queimadas no Brasil</h1>
-            <p>Escreva aq um sub título<br /> E aqui alguma descrição legal.</p>
+            <p>Um projeto de olho nas atuais queimadas em nosso território<br /> E aqui alguma descrição legal.</p>
         </div>
         <video autoplay loop muted playsinline src="images/video-queimada.mp4"></video>
     </section>
@@ -40,13 +41,116 @@
         <div class="inner">
             <header class="special">
                 <h2>Últimas notícias</h2>
-                <p>Inserir aqui as últimas notícias.</p>
+                <p>Veja as últimas noticías sobre as queimadas.</p>
+                <!--News-->
+                <section class="banner-sec">
+                    <div class="container">
+                        <div class="row">
+                            <br />
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img class="img-fluid" src="https://s2.glbimg.com/IzMy1QuZy0NauJr7aJk0aEv9sNg=/0x0:5184x3456/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/K/h/lf3aozTdSf7YBGcgABJQ/2020-09-10t061519z-393532314-rc2ivi9xree3-rtrmadp-3-climate-change-global-weather.jpg" alt="">
+                                    <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Amazônia</span> </div>
+                                    <div class="card-body">
+                                        <div class="news-title">
+                                            <h2 class=" title-small"><a href="https://g1.globo.com/natureza/amazonia/noticia/2020/10/22/queimadas-na-amazonia-em-2020-passam-numero-de-todo-o-ano-de-2019.ghtml" target="_blank">Queimadas na Amazônia em 2020 passam número registrado em todo o ano de 2019</a></h2>
+                                        </div>
+                                        <p class="card-text"><small class="text-time"><em>22/10/2020</em></small></p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="img-fluid" src="https://ichef.bbci.co.uk/news/800/cpsprodpb/18416/production/_114405399_queimadas.png" alt="">
+                                    <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Pantanal</span> </div>
+                                    <div class="card-body">
+                                        <div class="news-title">
+                                            <h2 class=" title-small"><a href="https://www.bbc.com/portuguese/brasil-54186760" target="_blank">Os seis fatores que tornam incêndios no Pantanal difíceis de serem controlados</a></h2>
+                                        </div>
+                                        <p class="card-text"><small class="text-time"><em>17/09/2020</em></small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <img class="img-fluid" src="https://cdn4.ecycle.com.br/cache/images/2020-10/50-650-queimadas-na-amazonia.jpg" alt="">
+                                    <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Amazônia</span> </div>
+                                    <div class="card-body">
+                                        <div class="news-title">
+                                            <h2 class=" title-small"><a href="https://www.ecycle.com.br/component/content/article/63-meio-ambiente/8638-entenda-situacao-de-animais-e-plantas-em-meio-as-queimadas-na-amazonia.html" target="_blank">Entenda situação de animais e plantas em meio às queimadas na Amazônia</a></h2>
+                                        </div>
+                                        <p class="card-text"><small class="text-time"><em>28/10/2020</em></small></p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img class="img-fluid" src="https://imagens.ebc.com.br/YskLK3cDWIHmWDYzp-HsDk3Dzqw=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/fogo-pantanal-br-262-foto-chico-ribeiro-33-copia.jpg" alt="">
+                                    <div class="card-img-overlay"> <span class="badge badge-pill badge-danger">Pantanal</span> </div>
+                                    <div class="card-body">
+                                        <div class="news-title">
+                                            <h2 class=" title-small"><a href="https://g1.globo.com/natureza/noticia/2020/10/07/pantanal-bate-recorde-historico-de-numero-de-queimadas-em-setembro-desde-inicio-das-medicoes-do-inpe-com-mais-de-14-mil-focos-em-um-mes.ghtml" target="_blank">Pantanal teve 14% do bioma queimado apenas em setembro e área devastada já é recorde histórico</a></h2>
+                                        </div>
+                                        <p class="card-text"><small class="text-time"><em>07/10/2020</em></small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 top-slider">
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators" style="color: red">
+                                        <li data-target="#carousel-example-generic" style="color: red" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" style="color: red" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" style="color: red" data-slide-to="2"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox" style="text-align: left">
+                                        <div class="carousel-item active">
+                                            <div class="news-block">
+                                                <div class="news-media"><img class="img-fluid" src="https://diariodegoias.com.br/wp-content/uploads/2020/09/queimadas_amazonas-750x375.jpg" alt=""></div>
+                                                <div class="news-title">
+                                                    <h2 class=" title-large" style="color: dimgray"><a href="https://g1.globo.com/am/amazonas/noticia/2020/11/05/amazonas-registra-mais-de-16-mil-focos-de-queimadas-em-2020-segundo-inpe.ghtml" target="_blank"><strong>Amazonas registra mais de 16 mil focos de queimadas em 2020, segundo Inpe</strong></a></h2>
+                                                </div>
+                                                <div class="news-des">Neste ano, o estado bateu o recorde em focos de queimadas. Em visita à região, ministro Augusto Heleno minimizou o problema citando uma "fogueirinha".</div>
+                                                <div class="time-text" style="text-align: left"><strong>05/11/2020</strong></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="news-block">
+                                                <div class="news-media"><img class="img-fluid" src="https://s2.glbimg.com/AGheZFdU1uWlIxUrVPTyTTuRULs=/e.glbimg.com/og/ed/f/original/2020/09/24/gbb.jpg" alt=""></div>
+                                                <div class="news-title">
+                                                    <h2 class=" title-large"><a href="https://www1.folha.uol.com.br/ambiente/2020/11/pantanal-tem-pior-outubro-de-queimadas-da-historia-e-fogo-cresce-121-na-amazonia.shtml" target="_blank">Pantanal tem pior outubro de queimadas da história e fogo cresce 121% na Amazônia</a></h2>
+                                                </div>
+                                                <div class="news-des">
+                                                    Pantanal tem pior outubro de queimadas da história e fogo cresce 121% na Amazônia.
+                                                </div>
+                                                <div class="time-text" style="text-align: left"><strong>01/11/2020</strong></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="news-block">
+                                                <div class="news-media"><img class="img-fluid" src="https://cdn.revistaforum.com.br/wp-content/uploads/2020/11/mouraxxo-salles.jpg" alt=""></div>
+                                                <div class="news-title">
+                                                    <h2 class=" title-large"><a href="https://revistaforum.com.br/politica/caldo-entornou-diz-mourao-sobre-aumento-do-desmatamento-e-queimadas-na-amazonia/" target="_blank">“Caldo entornou”, diz Mourão sobre aumento do desmatamento e queimadas na Amazônia</a></h2>
+                                                </div>
+                                                <div class="news-des">Em viagem ao Amazonas, o vice-presidente Hamilton Mourão reconheceu o aumento do desmatamento na Amazônia nos últimos tempos, mas negou que as políticas ambientais do governo contribuam para isso. O comentário foi feito em coletiva de imprensa na quinta-feira (5).</div>
+                                                <div class="time-text"><strong>06/11/2020</strong></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </header>
             <div class="highlights">
-                <section>
+                <!--<section>
                     <div class="content">
                         <header>
-                            <a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
+                            <a href="#" class="icon fa-vcard-o" style="color:red"><span class="label">Icon</span></a>
                             <h3>Feugiat consequat</h3>
                         </header>
                         <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
@@ -55,7 +159,7 @@
                 <section>
                     <div class="content">
                         <header>
-                            <a href="#" class="icon fa-files-o"><span class="label">Icon</span></a>
+                            <a href="#" class="icon fa-files-o" style="color:red"><span class="label">Icon</span></a>
                             <h3>Ante sem integer</h3>
                         </header>
                         <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
@@ -64,7 +168,7 @@
                 <section>
                     <div class="content">
                         <header>
-                            <a href="#" class="icon fa-floppy-o"><span class="label">Icon</span></a>
+                            <a href="#" class="icon fa-floppy-o" style="color:red"><span class="label">Icon</span></a>
                             <h3>Ipsum consequat</h3>
                         </header>
                         <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
@@ -73,7 +177,7 @@
                 <section>
                     <div class="content">
                         <header>
-                            <a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
+                            <a href="#" class="icon fa-line-chart" style="color:red"><span class="label">Icon</span></a>
                             <h3>Interdum gravida</h3>
                         </header>
                         <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
@@ -82,7 +186,7 @@
                 <section>
                     <div class="content">
                         <header>
-                            <a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
+                            <a href="#" class="icon fa-paper-plane-o" style="color:red"><span class="label">Icon</span></a>
                             <h3>Faucibus consequat</h3>
                         </header>
                         <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
@@ -91,12 +195,12 @@
                 <section>
                     <div class="content">
                         <header>
-                            <a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
+                            <a href="#" class="icon fa-qrcode" style="color:red"><span class="label">Icon</span></a>
                             <h3>Accumsan viverra</h3>
                         </header>
                         <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
                     </div>
-                </section>
+                </section>-->
             </div>
         </div>
     </section>
@@ -218,6 +322,9 @@
     <script src="assets/js/menu-component.js"></script>
     <script src="assets/js/links-uteis-component.js"></script>
     <script src="assets/js/contatos-component.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 
