@@ -4753,3 +4753,19 @@ p.sublinhado {
 p.sublinhado:hover {
     text-decoration: underline overline;
 }
+
+.areaImagem {
+    float: right;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+.areaImagem img {
+    width: 400px;
+}
+
+.areaTexto p {
+    float: right;
+    max-width: 500px;
+    margin-right: 10px;
+}
