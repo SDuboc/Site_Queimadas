@@ -9,14 +9,6 @@ const data = [{
     {
         name: 'Faça sua contribuição',
         id: 'doacao.html'
-    },
-    {
-        name: 'Generic',
-        id: 'generic.html'
-    },
-    {
-        name: 'Elements',
-        id: 'elements.html'
     }
 ]
 
