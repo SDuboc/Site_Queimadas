@@ -9,6 +9,10 @@ const data = [{
     {
         name: 'Faça sua contribuição',
         id: 'doacao.html'
+    },
+    {
+        name: 'Áreas queimadas',
+        id: 'areas-queimadas.html'
     }
 ]
 
