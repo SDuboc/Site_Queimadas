@@ -13,6 +13,10 @@ const data = [{
     {
         name: 'Áreas queimadas',
         id: 'areas-queimadas.html'
+    },
+    {
+        name: 'Biomas brasileiros',
+        id: 'biomas.html'
     }
 ]
 
