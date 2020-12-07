@@ -61,3 +61,25 @@ $(document)
             e.preventDefault(); //prevent the default action
         }
     });
+
+$()
+
+
+function desabilitar() {
+    if (!document.getElementById('radio-outro').checked) {
+        document.getElementById('money').setAttribute("disabled", "disabled");
+        document.getElementById('money').innerText
+    } else {
+        document.getElementById('onoff').value = ''; //Evita que o usuário defina um texto e desabilite o campo após realiza-lo
+        document.getElementById('money').setAttribute("disabled", "disabled");
+    }
+}
+
+function habilitar() {
+    if (document.getElementById('radio-outro').checked) {
+        document.getElementById('money').removeAttribute("disabled");
+    } else {
+        document.getElementById('onoff').value = ''; //Evita que o usuário defina um texto e desabilite o campo após realiza-lo
+        document.getElementById('money').setAttribute("disabled", "disabled");
+    }
+}
