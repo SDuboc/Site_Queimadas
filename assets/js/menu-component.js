@@ -15,10 +15,11 @@ const data = [{
         id: 'areas-queimadas.html'
     },
     {
-        name: 'Biomas brasileiros',
+        name: 'Biomas afetados',
         id: 'biomas.html'
     }
 ]
+
 
 const listComponent = (data) => {
     return data.map((item) => {
