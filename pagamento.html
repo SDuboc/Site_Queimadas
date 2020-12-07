@@ -81,27 +81,26 @@
                         </div>
                         <!-- Break -->
                         <div class="col-4 col-12-small">
-                            <input type="radio" id="radio-alpha" name="radio" checked>
+                            <input type="radio" id="radio-alpha" name="radio" onchange="desabilitar()" checked>
                             <label for="radio-alpha">R$20,00</label>
                         </div>
                         <div class="col-4 col-12-small">
-                            <input type="radio" id="radio-beta" name="radio">
+                            <input type="radio" id="radio-beta" name="radio" onchange="desabilitar()">
                             <label for="radio-beta">R$30,00</label>
                         </div>
                         <div class="col-4 col-12-small">
-                            <input type="radio" id="radio-gamma" name="radio">
+                            <input type="radio" id="radio-gamma" name="radio" onchange="desabilitar()">
                             <label for="radio-gamma">R$50,00</label>
                         </div>
                         <div>
-                            <input type="radio" id="radio-outro" name="radio">
+                            <input type="radio" id="radio-outro" name="radio" onchange="habilitar()">
                             <label for="radio-outro">Outro valor</label>
-                            <input type="text" id="money" name="money" value="R$" />
+                            <input class="textDisabled" type="text" id="money" value="R$" disabled>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
                         </div>
-
                         <!-- Break -->
                         <div class="col-12">
                             <ul class="actions">
-                                <li><input type="submit" value="Doar" class="primary" /></li>
+                                <li><input type="" value="Doar" class="primary" /></li>
                                 <li><input type="reset" value="Limpar" /></li>
                             </ul>
                         </div>
