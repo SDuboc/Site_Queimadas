@@ -4769,3 +4769,12 @@ p.sublinhado:hover {
     max-width: 500px;
     margin-right: 10px;
 }
+
+.areaImagemBiomas {
+    float: right;
+    margin-top: 10;
+}
+
+.areaImagemBiomas img {
+    width: 250px;
+}

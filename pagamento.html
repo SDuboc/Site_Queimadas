@@ -1,0 +1,165 @@
+﻿<!DOCTYPE HTML>
+<!--
+    Industrious by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+    <title>Faça Sua Contribuição</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/doacao.css" />
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html">Queimadas no Brasil</a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <ul class="links" menu-component></ul>
+    </nav>
+
+    <!-- Heading -->
+    <div id="heading">
+        <h1>Faça Sua Contribuição</h1>
+    </div>
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <div class="content">
+                <header>
+                </header>
+
+                <h3>Form</h3>
+                <form method="post" action="#">
+                    <div class="row gtr-uniform">
+                        <div class="col-6 col-12-xsmall">
+                            <label for="your_nome_completo">Nome*</label>
+                            <input minlength="3" type="text" name="name" id="name" value="" placeholder="Name..." required pattern="\D+\w+" />
+                        </div>
+                        <div class="col-6 col-12-xsmall">
+                            <label for="your_email">Email*</label>
+                            <input type="email" name="email" id="email" value="" placeholder="Email..." required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" />
+                        </div>
+                        <div class="col-6 col-12-xsmall">
+                            <label for="your_cpf">CPF*</label>
+                            <input type="text" name="cpf" id="cpf" value="" placeholder="CPF..." maxlength="14" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" />
+                        </div>
+                        <div class="col-6 col-12-xsmall">
+                            <label for="your_celular">Celular</label>
+                            <input type="text" name="celular" id="tel" value="" placeholder="Celular..." pattern="\(\d{2}\)(\d{1}) (\d{4})-(\d{4})" />
+                        </div>
+                        <!-- Break -->
+                        <div class="col-12">
+                            <select name="category" id="category" required>
+                                <option value="">- Escolha sua instituição para doação -</option>
+                                <option value="alpha">Fundação Ecotrópica</option>
+                                <option value="beta">Instututo Homem Pantaneiro</option>
+                                <option value="gamma">Brigada Alto Pantanal</option>
+                                <option value="delta">WWF-Brasil</option>
+                                <option value="epsilon">SOS Pantanal</option>
+                                <option value="zeta">Instututo WCS</option>
+                                <option value="eta">Instututo ICAS</option>
+                                <option value="theta">Instituto Arara-Azul</option>
+                                <option value="Onçafari">Onçafari</option>
+                                <option value="INCAB">INCAB</option>
+                                <option value="Ecoa">Ecoa</option>
+                            </select>
+                        </div>
+                        <!-- Break -->
+                        <div class="col-4 col-12-small">
+                            <input type="radio" id="radio-alpha" name="radio" onchange="desabilitar()" checked>
+                            <label for="radio-alpha">R$20,00</label>
+                        </div>
+                        <div class="col-4 col-12-small">
+                            <input type="radio" id="radio-beta" name="radio" onchange="desabilitar()">
+                            <label for="radio-beta">R$30,00</label>
+                        </div>
+                        <div class="col-4 col-12-small">
+                            <input type="radio" id="radio-gamma" name="radio" onchange="desabilitar()">
+                            <label for="radio-gamma">R$50,00</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="radio-outro" name="radio" onchange="habilitar()">
+                            <label for="radio-outro">Outro valor</label>
+                            <input class="textDisabled" type="text" id="money" value="R$" disabled>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+                        </div>
+                        <!-- Break -->
+                        <div class="col-12">
+                            <ul class="actions">
+                                <li><input type="submit" value="Doar" class="primary" href="index.html" /></li>
+                                <li><input type="reset" value="Limpar" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="content">
+                <section>
+                    <h3>Viu uma queimada?</h3>
+                    <p>Ligue para 0800-61-8080 ou mande email para linhaverde@ibama.gov.br</p>
+                    <p>
+                        Para mais informações, acesse:<br> <a class="link-vermelho" href="http://g1.globo.com/brasil/noticia/2010/08/saiba-como-denunciar-queimadas.html">
+                            Como
+                            denunciar queimadas
+                        </a>
+                    </p>
+                </section>
+                <section>
+                    <h4>Secretarias Estaduais do Meio Ambiente</h4>
+                    <ul class="alt" links-uteis-component></ul>
+                </section>
+                <section>
+                    <h4>Código do Site</h4>
+                    <ul class="plain" contatos-component> </ul>
+                </section>
+            </div>
+            <div class="copyright">
+                &copy; Grupo 2, Queimadas
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/menu-component.js"></script>
+    <script src="assets/js/links-uteis-component.js"></script>
+    <script src="assets/js/contatos-component.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/mask.js"></script>
+    <script>
+        $(document).ready(function() {
+            var $campoCpf = $("#cpf").mask('000.000.000-00', {
+                reverse: true
+            });
+            var $campoCelular = $("#tel").mask('(00)0 0000-0000', {
+                reverse: true
+            });
+            var $campoMoney = $("#money").mask("#.##0,00", {
+                reverse: true
+            });
+        });
+    </script>
+</body>
+
+</html>

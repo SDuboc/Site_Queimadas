@@ -7,6 +7,18 @@ const data = [{
         id: 'areas-protegidas.html'
     },
     {
+        name: 'Áreas queimadas',
+        id: 'areas-queimadas.html'
+    },
+    {
+        name: 'Biomas afetados',
+        id: 'biomas.html'
+    },
+    {
+        name: 'Orientações',
+        id: 'orientacoes.html'
+    },
+    {
         name: 'Faça sua contribuição',
         id: 'doacao.html'
     }
